@@ -1,3 +1,4 @@
 #!/bin/bash
 set -e
+which julia
 julia -e 'using Pkg; Pkg.build("IJulia")'
